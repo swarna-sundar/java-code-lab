@@ -1,31 +1,36 @@
+# Java Code Lab
 
-Java Code Lab
+A collection of Java programming practice,LeetCode solutions, data structures and algorithms, and software development projects.
 
-A collection of Java practice programs, programming concepts, problem-solving exercises, and development projects.
+-------------------------------------------------------------------------------------------------------------
+## Goal
+> To build strong programming fundamentals, sharpen algorithmic problem-solving skills, and develop industry-relevant expertise through practical software projects.
 
-Topics
+-------------------------------------------------------------------------------------------------------------
+## Repository Structure
 
-- Java Fundamentals
-- Variables and Data Types
-- Conditional Statements
-- Loops
-- Methods
-- Arrays
-- Strings
-- Object-Oriented Programming
-- Data Structures and Algorithms
-- Backend Development
+#### - Java Fundamentals
+Basic Java programs covering variables, data types, conditions, loops, methods, arrays, and strings.
+Explore [Java Fundamentals](./Java%20Fundamentals/)
 
-Repository Structure
+#### LeetCode Solutions
+Java solutions to coding problems, organized by category.
+Explore LeetCode Solutions
 
-- "HelloWorld.java" — First Java program
-- "variables-and-data-types.java" — Variables and data types
-- "conditions.java" — Conditional statements
-- "loops.java" — Loops
-- "methods.java" — Methods
-- "arrays.java" — Arrays
-- "strings.java" — String operations
+#### Data Structures and Algorithms
+Practice with common data structures, algorithms, and problem-solving techniques.
+Coming soon.
 
-Goal
+#### Projects
+Practical applications developed while learning Java and software development.
+Coming soon.
 
-Strengthen Java programming skills through consistent practice and progress toward building practical software applications.
+-------------------------------------------------------------------------------------------------------------
+## Technologies
+Java
+
+-------------------------------------------------------------------------------------------------------------
+## Progress
+This repository is updated as new concepts, solutions, and projects are completed.
+
+-------------------------------------------------------------------------------------------------------------
