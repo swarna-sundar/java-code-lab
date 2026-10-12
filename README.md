@@ -1,6 +1,6 @@
 # Java Code Lab
 
-'A collection of Java programming practice,LeetCode solutions, data structures and algorithms, and software development projects.'
+`A collection of Java programming practice,LeetCode solutions, data structures and algorithms, and software development projects.`
 
 -------------------------------------------------------------------------------------------------------------
 ## Goal
