@@ -7,5 +7,6 @@ public class Strings {
         System.out.println("Length: " + name.length());
         System.out.println("Uppercase: " + name.toUpperCase());
         System.out.println("Lowercase: " + name.toLowerCase());
+        System.out.println("Contains Java: " + text.contains("Java"));
     }
 }
