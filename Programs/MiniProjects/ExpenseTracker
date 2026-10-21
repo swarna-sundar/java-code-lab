@@ -1,0 +1,88 @@
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ExpenseTracker {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<String> categories = new ArrayList<>();
+        ArrayList<Double> amounts = new ArrayList<>();
+
+        int choice;
+
+        do {
+            System.out.println("\n=== Expense Tracker ===");
+            System.out.println("1. Add Expense");
+            System.out.println("2. View Expenses");
+            System.out.println("3. View Total Spending");
+            System.out.println("4. Exit");
+            System.out.print("Enter your choice: ");
+
+            choice = sc.nextInt();
+            sc.nextLine();
+
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter category: ");
+                    String category = sc.nextLine();
+
+                    System.out.print("Enter amount: ");
+                    double amount = sc.nextDouble();
+                    sc.nextLine();
+
+                    if (amount <= 0) {
+                        System.out.println(
+                            "Amount must be greater than zero."
+                        );
+                        break;
+                    }
+
+                    categories.add(category);
+                    amounts.add(amount);
+
+                    System.out.println("Expense added successfully!");
+                    break;
+
+                case 2:
+                    if (amounts.isEmpty()) {
+                        System.out.println("No expenses recorded.");
+                    } else {
+                        System.out.println("\nYour Expenses:");
+
+                        for (int i = 0; i < amounts.size(); i++) {
+                            System.out.printf(
+                                "%d. %s - Rs. %.2f%n",
+                                i + 1,
+                                categories.get(i),
+                                amounts.get(i)
+                            );
+                        }
+                    }
+                    break;
+
+                case 3:
+                    double total = 0;
+
+                    for (double expense : amounts) {
+                        total += expense;
+                    }
+
+                    System.out.printf(
+                        "Total Spending: Rs. %.2f%n", total
+                    );
+                    break;
+
+                case 4:
+                    System.out.println("Thank you for using Expense Tracker!");
+                    break;
+
+                default:
+                    System.out.println("Invalid choice. Try again.");
+            }
+
+        } while (choice != 4);
+
+        sc.close();
+    }
+}
