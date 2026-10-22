@@ -10,8 +10,8 @@
 ## Repository Structure
 
 #### Java Fundamentals
-`Basic Java programs covering variables, data types, conditions, loops, methods, arrays, and strings.`
-Explore [Java Fundamentals](./Java%20Fundamentals/) 
+`Basic Java programs covering variables, data types, conditions, loops, methods, arrays, and strings.
+Explore` [Java Fundamentals](./Java%20Fundamentals/) 
 
 #### LeetCode Solutions
 `Java solutions to coding problems, organized by category.`
