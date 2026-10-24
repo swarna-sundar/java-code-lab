@@ -14,8 +14,8 @@
 Explore` [Java Fundamentals](./Java%20Fundamentals/) 
 
 #### LeetCode Solutions
-`Java solutions to coding problems, organized by category.`
-Explore LeetCode Solutions 
+`Java solutions to coding problems, organized by category.
+Explore LeetCode Solutions `
 
 #### Data Structures and Algorithms
 `Practice with common data structures, algorithms, and problem-solving techniques.
